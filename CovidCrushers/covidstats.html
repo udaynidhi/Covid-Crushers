@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Generic</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+
+    <!-- <covid status api> -->
+      <script src="assets/js/covidstats.js"></script>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Covid Crushers</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				  <!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="covidstats.html">Covid19 Status</a></li>
+							<li><a href="generic.html">Covid19 Resources</a></li>
+							<li><a href="generic.html">Covid-19 HelpLine</a></li>
+							<li><a href="elements.html"></a></li>
+						</ul>
+					</nav>
+        
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<p>Get live Covid-19 status</p>
+							<!-- <span class="image main"><img src="images/pic13.jpg" alt="" /></span> -->
+              <section>
+
+                  <div class="ml-3 mr-3 mb-3 mt-3 mx-auto">
+                      <div class="display-4 text-center text-dark text-uppercase font-weight-bold">Covid19 Status
+                      </div><br>
+                      <div class="form-group">
+                       
+                          <input class="form-control db" id="nation" type="text" placeholder=" Enter Country Name" required="required">
+													<br>
+                          <input class="date form-control" id="date" type="date" >
+                      </div>
+                      <input class="submit form-control btn-dark" type="submit" value="Status" onclick=getCovidStats()>
+                      <br>
+                    </div>
+                  <br><br>
+                  <div id="tmp" class="display-4 text-center text-capitalize font-weight-bold">
+                        
+                  </div>
+                  <div id="temp">
+										
+                  </div>
+							</section>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+				
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy;ovid &copy;rushes. All rights reserved</li><li>Design: <a href="#">Vineeth Kumar</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
